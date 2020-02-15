@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <SwitchPreference
+        android:id="@+id/button"
+        android:defaultValue="false"
+        android:layout_width="match_parent"
+        android:key="noti"
+        android:summaryOff="Off"
+        android:summaryOn="On"
+        android:title="Notification"
+        />
+
+</PreferenceScreen>
